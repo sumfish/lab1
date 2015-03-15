@@ -1,0 +1,75 @@
+Script started on 2015年03月15日 (週日) 16時43分35秒
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ whoami;pwd
+F74036190
+/home/F74036190
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git config -l
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=http://github.com/sumfish/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git clone https://github.com/sumfish/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ cat lab1.script
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ cat lab1.script[1P lab1.script[1P lab1.script[1P lab1.scriptm lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ ls
+[0m[01;34mlab1[0m
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ vi lab1
+[?1049h[?1h=[1;18r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[18;1H"lab1" 是目錄[>c[1;1H[34m" ===================================================================[2;1H" Netrw Directory Listing                                        [m[36m(net[m[3;1H[34m"   /home/F74036190/lab1
+"   Sorted by[m[33m      name[m
+[34m"   Sort sequence:[m[33m [\/]$[m[34m,[m[33m\<core\%(\.\d\+\)\=\>[m[34m,[m[33m\.h$[m[34m,[m[33m\.c$[m[34m,[m[33m\.cpp$[m[34m,[m[33m\~\=\[m[6;1H[34m"   Quick Help: [m<F1[36m>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by[7;1H[34m" ===================================================================[m[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                  [m[9;1H[34m.git[m[36m/[m
+lab1.script
+.swp
+[1m[34m~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [m[18;52H8,1[10C全部[8;1H[?12l[?25h[?25l[18;1H[K[18;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[18;1H[K[18;1H[?1l>[?12l[?25h[?1049l]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git init
+Reinitialized existing Git repository in /home/F74036190/.git/
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git add lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git add lab1.script[K[K[K[K[K[K[K
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git commir[Kt
+[?1049h[?1h=[1;18r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[18;1H".git/COMMIT_EDITMSG" 28L, 703C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# [m[35mCommitter:[m[34m student <F74036190@2015cpp.(none)>
+#
+# On branch [m[35mmaster[m
+[34m# [m[35mChanges to be committed:[m
+[34m#   (use "git reset HEAD <file>..." to unstage)
+#
+#       [m[32mmodified[m[34m: [m[31m  lab1/lab1.script[m
+[34m#
+# [m[35mChanges not staged for commit:[m
+[34m#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working dii[16;1Hrectory)
+#[m[18;52H1,0-1[8C頂端[1;1H[?12l[?25h[?25l[18;1H[1m-- 插入 --[m[18;11H[K[18;52H1,1[10C頂端[1;1H[?12l[?25h[?25l[33ms[m[18;54H2[1;2H[?12l[?25h[?25l[1;1H[K[18;54H1[1;1H[?12l[?25h[?25l[33mc[m[18;54H2[1;2H[?12l[?25h[?25l[33mcs[m[18;54H3[1;3H[?12l[?25h[?25l[33msi[m[18;54H4[1;4H[?12l[?25h[?25l[33mie[m[18;54H5[1;5H[?12l[?25h[18;1H[K[1;4H[?25l[18;52H1,4[10C頂端[1;4H[?12l[?25h[?25l[18;52H[K[18;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[18;4H[K[18;4H[?12l[?25h[?25l".git/COMMIT_EDITMSG" 28L, 707C 已寫入
+[?1l>[?12l[?25h[?1049l[master 498df7d] csie
+ Committer: student <F74036190@2015cpp.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 deletions(-)
+ rewrite lab1/lab1.script (100%)
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git commit[K[K[K[K[K[Kremote add ori [K]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git remote add ori [K]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git remote add ori https://github.com/sumfish/la b1.git
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ git push -u ori master
+Username for 'https://github.com': sumfish
+Password for 'https://sumfish@github.com': 
+To https://github.com/sumfish/lab1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from ori.
+]0;F74036190@2015cpp: ~F74036190@2015cpp:~$ vi [K[K[Kcd lab1
+]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ ls
+lab1.script
+]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ vi lab1.cpp
+[?1049h[?1h=[1;19r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[19;1H"lab1.cpp" [未命名][>c[2;1H[1m[34m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [m[19;52H0,0-1[8C全部[1;1H[?12l[?25h[?25l[19;1H[1m-- 插入 --[m[19;12H[K[19;52H0,1[10C全部[1;1H[?12l[?25h[?25l[35m#include[m[31m<iostream>[m[2;1H[K[19;52H2[2;1H[?12l[?25h[?25l[33musing[m [32mnamespace[m std;[3;1H[K[19;52H3[3;1H[?12l[?25h[?25l[4;1H[K[19;52H4[4;1H[?12l[?25h[?25l[32mint[m main(){[5;1H[K[19;52H5[5;1H[?12l[?25h[?25l[7C [32mint[m n;[6;1H[K[19;52H6[6;1H[?12l[?25h[?25l[7C cout<<[31m"please enter a number:"[m;[7;1H[K[19;52H7[7;1H[?12l[?25h[?25l[7C cin>>n;
+        cout<<n;[8;17H[K[9;1H[K[19;52H9[9;1H[?12l[?25h[?25l[7C [33mwhile[m (n!=[31m1[m){[10;1H[K[19;52H10,1[10;1H[?12l[?25h[?25l[15C [33mif[m(n%[31m2[m!=[31m0[m){[11;1H[K[19;53H1[11;1H[?12l[?25h[?25l[23C n=[31m3[m*n+[31m1[m;[12;1H[K[19;53H2[12;1H[?12l[?25h[?25l[15C }[13;1H[K[19;53H3[13;1H[?12l[?25h[?25l[15C [33melse[m{[14;1H[K[19;53H4[14;1H[?12l[?25h[?25l[23C n=n/[31m2[m;[15;1H[K[19;53H5[15;1H[?12l[?25h[?25l[15C }[16;1H[K[1

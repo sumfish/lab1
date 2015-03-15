@@ -1,21 +1,0 @@
-Script started on 2015年03月10日 (週二) 17時49分37秒
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ git clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1 -1llone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1[2Pwhoami;pwd
-F74036190
-/home/F74036190/lab1
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ whoami;pwdgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1
-git: 'config-1' is not a git command. See 'git --help'.
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ git config-1[2Pwhoami;pwdgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1 -1llone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-remote.origin.url=http://github.com/sumfish/lab1.git
-branch.master.remote=origin
-branch.master.merge=refs/heads/master
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ git config -l[1P-1[2Pwhoami;pwdgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1 -1llone http://github.com/sumfish/lab1.git
-Cloning into 'lab1'...
-warning: You appear to have cloned an empty repository.
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ git clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K[1P-1[2Pwhoami;pwdgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwdgit config-1 -1llone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwhoami;pwd[Kgit config-1 -llone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kct[Kat lab.[K1.scri[K[Kript
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ cat lab1.script[C[1P lab1.script[1P lab1.script[1P lab1.scriptm lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
-]0;F74036190@2015cpp: ~/lab1F74036190@2015cpp:~/lab1$ mv lab1.script lab1[4Pcat lab1.scriptgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K[1P-1[2Pwhoami;pwdgit clone http://github.com/sumfish/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K1[1P-1[2Pwhoami;pwd[K[K[K[K[K
